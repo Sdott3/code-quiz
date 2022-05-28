@@ -16,7 +16,7 @@
             <!-- View High Scores-->
             <div class="row">
                 <div class="col text-left">
-                    <button type="button"> View High Scores </button>
+                    <button class="btn" id="highScoreButton"> View High Scores </button>
                 </div>
                 <!-- Timer -->
                 <div id="timer" class="col text-right">
@@ -33,9 +33,16 @@
                 Try to answer the following code-related questions within the time limit.
                 Keep in mind that the incorrect answers will penalize your score/time by ten seconds!
             </p>
-            <button id="startBtn">Start Quiz</button>
+            <button class="btn" id="startBtn">Start Quiz</button>
         </div>
-
+        <div id="questionContainer" class="hide">
+            <div id="question"></div>
+            <div id="answers" class="buttons"></div>
+        </div>
+        <div id="playerScore" class="hide">
+            <span id="scoreDisplay" name="initials" id="initals"></span>
+            <button id="submitInitals" class="submit">Submit Initials</button>
+        </div>
 
     </div>
 

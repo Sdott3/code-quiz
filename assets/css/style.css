@@ -23,7 +23,13 @@ button {
 }
 
 .bottom-container {
-    padding: 50px 30px 50px 30px;
+    padding: 50px 50px 50px 50px;
+}
+
+.quiz-intro {
+    box-shadow: 0 0 10px 2px;
+    max-width: 100%;
+    padding: 10px;
 }
 
 .intro-p {

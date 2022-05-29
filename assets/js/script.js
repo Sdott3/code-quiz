@@ -11,10 +11,9 @@ var countdown = document.getElementById("timer");
 // Start Game function; click the start button
 function startQuiz() {
     console.log("startBtn");
-
+    startButton.classList.add("hide");
 }
 
-// timer starts and I am presented with a question
 
 
 // Select a answer

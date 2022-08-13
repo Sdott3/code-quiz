@@ -9,12 +9,12 @@ body {
 }
 
 p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 /* High Score and Start Game button */
 .btn {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     background-color: purple;
     color: azure;
 }
@@ -23,17 +23,44 @@ p{
     padding: 30px 30px 30px 30px;
 }
 
-.bottom-container {
+/* bottom container */
+.bottom-container, .choice-container {
     padding: 50px 50px 50px 50px;
 }
 
-.quiz-intro {
+.quiz-intro, .quiz-ques {
     box-shadow: 0 0 10px 2px;
     max-width: 100%;
     padding: 10px;
 }
 
-.intro-p {
+/* .intro-p {
     padding: 50px 50px 50px 50px;
 }
 
+/* 2nd page container that holds questions and answers */
+.choice-containers {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    display: flex;
+}
+
+.choice-containers:hover {
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    box-shadow: 0 0.4rem 1.4rem  purple;
+}
+
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    color: white;
+    background-color: purple;
+    width: 20%;
+}
+
+.choice-text {
+    padding: 1.5rem;
+}
+ */

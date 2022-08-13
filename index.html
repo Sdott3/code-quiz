@@ -11,30 +11,34 @@
 </head>
     
 <body>
-    <header>
-        <div class="top-container">
-            <!-- View High Scores-->
-            <div class="row">
-                <div class="col text-left">
-                    <button class="btn" id="highScoreButton"> View High Scores </button>
-                </div>
-                <!-- Timer -->
-                <div id="timer" class="col text-right">
-                    <p>Time:00:00</p>
-                </div>
+    <div id="container" class="p-3 mb-2 bg-light text-dark">
+        <!-- View High Scores-->
+        <div class="row">
+            <div class="col-6">
+                <button class="btn" id="highScoreButton"> View High Scores </button>
+            </div>
+            <!-- Timer -->
+            <div id="timer" class="col-6">
+                <p class="d-flex justify-content-end time">Time:</p>
             </div>
         </div>
-    </header>
+    </div>
+   
 
-    <div class="bottom-container">
-        <div class="quiz-intro col text-center">
-            <h1>Welcome to JavaScript Coding Quiz</h1>
-            <p class="intro-p">
-                Try to answer the following code-related questions within the time limit.
-                Keep in mind that the incorrect answers will penalize your score/time by ten seconds!
-            </p>
-            <a class="btn" href="quiz.html">Start Quiz</button>
-        </div>
+    <div id="container">
+        <section id="intro">
+            <div class="row">
+                <div class="col-3"></div>
+                <div id="col-6">
+                    <h1 class="d-flex justify-content-center text-center">Welcome to JavaScript Coding Quiz</h1>
+                    <p class="d-flex justify-content-center text-center">
+                        Try to answer the following code-related questions within the time limit.
+                        Keep in mind that the incorrect answers will penalize your score/time by ten seconds!
+                    </p>
+                    <button id="start" type="button" class="btn btn-info mx-auto d-block">Start Quiz</button>
+                </div>
+            </div>
+        </section>
     </div>
 
     <script src="./assets/js/script.js"></script>
